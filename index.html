@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Upright Helper</title>
+</head>
+
+<body>
+    <div class="center">
+        <div>
+            <button id="class-a">Right Posture</button>
+            <button id="class-b">Wrong Posture</button>
+
+        </div>
+        <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+        <h2> Welcome to the Upright Helper. </h2>
+        <h3>To have a proper posture, you need to stay upright while sitting. This website is designed to help you achieve this by warning you whenever you are not sitting upright.</h3>
+        <h3>To use this site effectively, all you have to do is:</h3>
+        <ul>
+           <li>When asked by the browser, give permission to utilize the webcam.</li> 
+           <li>Sit in a proper position (upright) and click the <b>Right Position</b> button a few times. (15-20 is usually enough). Each time you press the button it captures an image and trains the machine learning algoritmh with it. So to get good results, be sure to look at different parts of the screen, lean a bit to the right/left etc.</li> 
+            <li>Next, sit in a wrong position, (NOT upright) and click the <b>Wrong Position</b> button a few times. (15-20 is usually enough). Again, try looking at different parts of the screen, etc.</li>
+            <li>After doing all these steps, you are ready to go. Leave the website open and it will warn you with sound/viusals whenever you start siting in a wrong posiiton.</li>
+            <li>If you think it is not working accurately enough, try adding more right position/wrong position samples. </li>
+        </ul>
+        <p> Note that, this website does not send any data to the web. Everything happens locally, which means YOUR data stays at YOUR machine. Whenever you refresh the page, all the captured data vanishes.</p>
+    </div>
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+</body>
+
+</html>

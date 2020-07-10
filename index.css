@@ -1,0 +1,7 @@
+.center{
+    padding: 10% 0;
+    text-align: center;
+    display: block;
+    margin: auto;
+    list-style-position: inside;
+}
