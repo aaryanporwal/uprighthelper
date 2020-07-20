@@ -39,10 +39,10 @@ async function app() {
       const classes = ['A', 'B'];
       if(classes[result.classIndex]=="B"){
         await audio.play();
-        document.body.style.backgroundColor = "red";
+        document.body.style.backgroundColor = "rgb(168, 63, 63)";
       }
       else{
-        document.body.style.backgroundColor = "white";
+        document.body.style.backgroundColor = "rgb(80, 168, 80)";
       }
     }
 
