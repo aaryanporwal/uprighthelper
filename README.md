@@ -3,6 +3,10 @@
 ## Description:
 To have a proper posture, you need to stay upright while sitting. This website is designed to help you achieve this by warning you whenever you are not sitting upright.
 ## Running the website:
+ You can run the website on: https://aaryanporwal.github.io/uprighthelper/
+ 
+ OR
+ ### To run the website locally:
  Just clone the repo and open index.html in your browser
  1. When asked by the browser, give permission to utilize the webcam.
  2. Sit in a proper position (upright) and click the Right Position button a few times. (15-20 is usually enough). Each time you press the button it captures an image and trains the machine learning algorithm with it. So to get good results, be sure to look at different parts of the screen, lean a bit to the right/left etc.
