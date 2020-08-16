@@ -1,11 +1,12 @@
-# uprighthelper
+# uprighthelper 🪑 🤖
 
 ## Description:
-To have a proper posture, you need to stay upright while sitting. This website is designed to help you achieve this by warning you whenever you are not sitting upright.
+To have a proper posture, you need to stay upright while sitting. This website uses machine learning model to learn patterns 👣 in your posture and it helps your back by keeping you in a proper posture. This is acheived by warning you whenever you are not sitting upright with an alert sound and visual effects.
 ## Running the website:
  You can run the website on: https://aaryanporwal.github.io/uprighthelper/
  
  OR
+ 
  ### To run the website locally:
  Just clone the repo and open index.html in your browser
  1. When asked by the browser, give permission to utilize the webcam.
