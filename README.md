@@ -17,3 +17,6 @@ If you think it is not working accurately enough, try adding more right position
 
 ## Important Note: 
 Note that, this website does not send any data to the web. Everything happens locally, which means YOUR data stays in YOUR machine. Whenever you refresh the page, all the captured data vanishes.
+
+## License
+uprighthelper is Free Software, licensed under MIT License; see License.md for details.
