@@ -18,5 +18,10 @@ If you think it is not working accurately enough, try adding more right position
 ## Important Note: 
 Note that, this website does not send any data to the web. Everything happens locally, which means YOUR data stays in YOUR machine. Whenever you refresh the page, all the captured data vanishes.
 
+## TO-DO
+1. Improve the interface
+2. Refactor the code (use the big brain javascript I've been learning since 5 months)
+3. Migrate to the ✨<b>beautiful</b>✨ ml5.js (or Tensorflow.JS if able to dedicate more time)
+
 ## License
 uprighthelper is a Free Software, licensed under MIT License; see License.md for details.
