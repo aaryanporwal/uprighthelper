@@ -22,6 +22,8 @@ Note that, this website does not send any data to the web. Everything happens lo
 1. Improve the interface
 2. Refactor the code (use the big brain javascript I've been learning since 5 months)
 3. Migrate to the ✨<b>beautiful</b>✨ ml5.js (or Tensorflow.JS if able to dedicate more time)
+4. Make a browser extension?
+5. Can use the apple's widget API to make a really cool widget for this
 
 ## License
 uprighthelper is a Free Software, licensed under MIT License; see License.md for details.
