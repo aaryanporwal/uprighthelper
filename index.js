@@ -5,6 +5,7 @@ var audio = new Audio('audio_file.mp3');
 
 
 async function app() {
+  try {
   console.log('Loading mobilenet..');
 
   // Load the model.
@@ -47,6 +48,14 @@ async function app() {
     }
 
     await tf.nextFrame();
+  }
+  } catch (err) {
+    console.error(err);
+    const errorDiv = document.createElement('div');
+    errorDiv.style.cssText = 'color: red; font-size: 1.5rem; text-align: center; margin: 1rem 0;';
+    errorDiv.textContent = 'Camera access denied or no camera found. Please check permissions and try again.';
+    document.querySelector('.center').prepend(errorDiv);
+    throw err;
   }
 }
 
